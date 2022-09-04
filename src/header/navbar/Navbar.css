@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar .nav-element {
+    margin-left: 16px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

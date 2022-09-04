@@ -1,0 +1,15 @@
+.contact .nav-element img {
+    width: 32px;
+    height: 32px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact hr {
+    width: 60%;
+}

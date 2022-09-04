@@ -1,0 +1,59 @@
+.header {
+    height: 64px;
+    width: 100vw;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.header h1:hover {
+    cursor: default;
+}
+
+.header a, header a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.header-wrapper {
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+    .header h1 {
+        display: none;
+    }
+}
+
+.header .puzzle:hover a, .puzzle:hover a, .puzzle:hover a:visited{
+    color: #EC6767 !important;
+    cursor: pointer;
+}
+
+.header .puzzle:hover .nav-icon{
+    filter: invert(49%) sepia(45%) saturate(690%) hue-rotate(313deg) brightness(96%) contrast(95%);
+}
+
+.header .person:hover, .person:hover a, .person:hover a:visited{
+    color: #60ACE2;
+    cursor: pointer;
+}
+
+.header .person:hover .nav-icon{
+    filter: invert(58%) sepia(83%) saturate(304%) hue-rotate(164deg) brightness(94%) contrast(88%);
+}
+
+.header .request:hover, .request:hover a, .request:hover a:visited{
+    color: #71c079;
+    cursor: pointer;
+}
+
+.header .request:hover .nav-icon{
+    filter: invert(76%) sepia(18%) saturate(871%) hue-rotate(75deg) brightness(87%) contrast(90%);
+}

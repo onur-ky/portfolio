@@ -1,0 +1,21 @@
+.nav-element, .nav-icon, .nav-element a, .nav-element a:visited {
+    transition: ease-in 100ms;
+}
+
+.icon-text-wrapper {
+    display: flex;
+}
+
+.nav-icon {
+    filter: invert(99%) sepia(2%) saturate(388%) hue-rotate(192deg) brightness(120%) contrast(100%);
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

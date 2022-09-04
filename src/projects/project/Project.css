@@ -1,0 +1,66 @@
+.project {
+    margin-top: 48px;
+    border-left: 1px solid white;
+    padding-left: 32px;
+    border-radius: 2px;
+}
+
+.project:last-of-type {
+    margin-bottom: 48px;
+}
+
+.project .project-type {
+    margin-top: 4px;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.project-links {
+    width: 128px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.project-links a, .project-links a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.project-btn {
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 64px;
+    border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    transition: 100ms;
+}
+
+.project-btn:hover {
+    cursor: pointer;
+}
+
+.project-site:hover {
+    background-color: rgb(85, 145, 228);
+}
+
+.project-code:hover {
+    background-color: green;
+}
+
+.project-title {
+    display: flex;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+}

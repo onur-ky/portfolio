@@ -1,0 +1,58 @@
+.footer {
+    height: 64px;
+    width: 100vw;
+    background-color: black;
+    margin-top: auto;
+    color: white
+}
+
+.footer-wrapper {
+    width: auto;
+    height: 100%;
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.copyright {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 6px;
+}
+
+.footer .code:hover .nav-icon{
+    filter: invert(81%) sepia(47%) saturate(425%) hue-rotate(12deg) brightness(107%) contrast(102%);
+}
+
+.footer .github:hover .nav-icon{
+    filter: invert(9%) sepia(96%) saturate(0%) hue-rotate(143deg) brightness(113%) contrast(78%);
+}
+
+.footer .pdf:hover .nav-icon{
+    filter: invert(30%) sepia(22%) saturate(4950%) hue-rotate(335deg) brightness(128%) contrast(92%);
+}
+
+.footer .email:hover .nav-icon{
+    filter: invert(79%) sepia(90%) saturate(429%) hue-rotate(61deg) brightness(105%) contrast(90%);
+}
+
+.footer .linkedin:hover .nav-icon{
+    filter: invert(32%) sepia(90%) saturate(1197%) hue-rotate(175deg) brightness(87%) contrast(101%);
+}

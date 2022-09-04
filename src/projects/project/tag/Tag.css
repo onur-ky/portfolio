@@ -1,0 +1,10 @@
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    border: 1px solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+}

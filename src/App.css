@@ -1,0 +1,23 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100vw;
+  height: calc(100vh - 128px);
+  background-color: rgb(18, 20, 22);
+  overflow: scroll;
+}
+
+.content-wrapper {
+  margin-left: var(--side-margin);
+  margin-right: var(--side-margin);
+  height: 100%;
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 0;
+}
